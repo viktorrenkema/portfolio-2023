@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@tldraw/tldraw": "^1.29.2",
+    "@tldraw/file-format": "^2.0.0-canary.1c4a58365",
+    "@tldraw/tldraw": "2.0.0-canary.f2e95988e03c",
+    "@tldraw/utils": "2.0.0-canary.f2e95988e03c",
     "@types/node": "20.1.2",
     "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
@@ -21,6 +23,8 @@
     "react": "18.2.0",
     "react-device-detect": "^2.2.3",
     "react-dom": "18.2.0",
+    "signia": "^0.1.4",
+    "signia-react": "^0.1.4",
     "styled-components": "^6.0.0-rc.1",
     "typescript": "5.0.4",
     "use-is-in-viewport": "^1.0.9"
